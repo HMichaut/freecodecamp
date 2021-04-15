@@ -1,0 +1,80 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main id="main">
+  <style>
+    img {
+      max-width: 100%;
+      margin: auto;
+      display: block;
+    }
+    h1 {
+      position: relative;
+      top: 10px;
+      text-align: center;
+      margin: auto;
+      padding: 1em;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    h3 {
+      text-align: center;
+      margin: auto;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    #img-caption {
+      text-align: center;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    #subtitle {
+      text-align: center;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    #bottom-link {
+      text-align: center;
+      padding-bottom: 2em;
+      font-size: 1.2em;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    #tribute-info {
+      margin: auto;
+      width: 40em;
+      padding: 2em;
+    }
+    #fullpage {
+      margin: auto;
+      background-color: pink;
+    }
+    #img-div {
+      margin: auto;
+      width: 50em;
+      background-color: white;
+      padding: 2em;
+    }
+  </style>
+  
+  <div id="fullpage">
+  <h1 id="title">Henry Joseph Darger Jr.</h1>
+  <p id="subtitle">In the Realms of the Unreal</p>
+  <div id="img-div"><img src="https://upload.wikimedia.org/wikipedia/en/2/22/Henry_Darger.jpg" id="image">
+  <div id="img-caption">
+    <p>Darger as photographed by David Berglund in 1971.</p>
+  </div>
+  </div>
+  <div id="tribute-info">
+    <h3>Here's a time line of Henry Darger life:</h3>
+    <ul>
+      <li><strong>1892</strong> - Born in Chicago, Illinois, to Henry Darger Sr. and Rosa Fullman.</li>
+      <li><strong>1900</strong> - Henry, aged eight, is placed in the Mission of Our Lady of Mercy Catholic orphanage and boys home</li>
+      <li><strong>1904</strong> - Is sent by his father to the Asylum for Feeble-Minded Children in Lincoln, IL.</li>
+      <li><strong>1909</strong> - Is hired as a floor janitor at St. Joseph's Hospital, Burling and Dickens, where he also lives.</li>
+      <li><strong>Sometime between 1910 and 1912</strong> - Begins writing his magnum opus, In the Realms of the Unreal.</li>
+      <li><strong>1917</strong> - Drafted into the army and sent to Camp Logan, Texas for a short time before being discharged.</li>
+      <li><strong>1922</strong> - Hired as a dishwasher at Grant Hospital.</li>
+      <li><strong>1939</strong> - Starts writing "Crazy House: Further Adventures in Chicago"</li>
+      <li><strong>1947</strong> - Hired at Alexian Brothers Hospital, at Belden and Racine, as a dishwasher</li>
+      <li><strong>1968</strong> - Starts writing "The History of My Life"</li>
+      <li><strong>1973</strong> - Dies at the age of 81</li>
+</ul>
+  </div>
+<div id="bottom-link">You should read more about this very important outsider artist on his <a id="tribute-link" target="_blank" href=https://en.wikipedia.org/wiki/Henry_Darger>Wikipedia entry</a>.</div>
+</div>
+</main>

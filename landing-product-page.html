@@ -1,0 +1,95 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<main>
+  <style>
+    header {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      flex-direction: row;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      background-color: white;
+      justify-content: space-between;
+      width: 100%;
+    }
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    li {
+      float: left;
+      padding-left: 3em;
+    }
+    #content {
+      margin: auto;
+      width: 50em;
+      padding: 5em;
+    }
+    #header-img {
+      max-width: 20%;
+      heigth: auto;
+    }
+    
+    @media (max-width: 100px) {#header-img {
+      max-width: 10%;
+      heigth: auto;
+      }}
+      
+    .features {
+      padding: 0.5em;
+    }
+      
+  </style>
+  
+  <header id="header">
+    <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img">
+    <nav id="nav-bar">
+    <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    </ul>
+    </nav>
+  </header>
+  
+  <div id="content">
+  <h1>Handcrafted, home-made masterpieces</h1>
+<form id="form" action="https://www.freecodecamp.com/email-submit">   
+  <div id="email-div">
+    <input id="email" type="email" name="email" placeholder="Enter your Email address" required="required">
+    <input id="submit" type="submit">
+    </div>
+  </form>
+  
+    <div id="features">
+    <div class="features">
+      <p><strong>Premium Materials</strong><br>
+      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    </div>
+    
+    <div class="features">
+      <p><strong>Fast Shipping</strong><br>
+      We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    </div>
+    
+    <div class="features">
+      <p><strong>Quality Assurance</strong><br>
+      For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+    </div>
+    </div>
+    
+  <div id="how-it-works">    
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>   
+
+  <div id="pricing">
+    <p>TENOR TROMBONE: USD600</p>
+    <p>BASS TROMBONE: USD900</p>
+    <p>VALVE TROMBONE: USD1200</p>
+  </div>
+  </div>
+</main>

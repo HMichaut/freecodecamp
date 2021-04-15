@@ -1,0 +1,115 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main>
+  <style>
+    #welcome-section {
+    width: 100vw;
+    height: 100vh;
+    }
+    #projects {
+    width: 100vw;
+    height: 100vh;
+    }
+    #profile {
+    width: 100vw;
+    height: 100vh;
+    }
+    section {
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    
+    #navbar {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      flex-direction: row;
+      background-color: #333;
+      width: 100%;
+      font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    }
+    @media screen and (max-width: 500px) {
+    #navbar { visibility: hidden; }
+    }
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    .nav-list {
+      float: left;
+    }
+    .nav-list a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .nav-list a:hover {
+      background-color: #111;
+    }
+    #welcome-section {
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      background-image: linear-gradient(45deg, #ffffff 44.44%, #336699 44.44%, #336699 50%, #ffffff 50%, #ffffff 94.44%, #336699 94.44%, #336699 100%);
+background-size: 45.00px 45.00px;
+    }
+    h1 {
+      background: #ffffff;
+      border-color: #336699;
+      border-style: double;
+      padding: 1em;
+    }
+    #github {
+      width: 5%;
+      height: auto;
+    }
+    .project-img {
+      height: 400px;
+      padding: 1em;
+      width: auto;
+      border-color: black;
+      border-style: solid;
+    }
+    #img-bar {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+    }
+  </style>
+  
+  <nav id="navbar">
+    <ul id="navlist">
+        <li class="nav-list"><a class="nav-link" href="#welcome-section">Welcome section</a></li>
+        <li class="nav-list"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-list"><a class="nav-link" href="#profile">Profile</a></li>
+    </ul>
+  </nav>
+  
+  <section id="welcome-section">
+    <h1>Welcome to HMichaut portfolio</h1>
+  </section>
+  
+  <section id="projects">
+    <h2 class="project-tile">Projects</h2>
+    
+    <div id="img-bar">
+    <a id="tribute-link" target="_blank" href="https://codepen.io/hmichaut/pen/qBRpLGN"><img src="https://github.com/HMichaut/personal-portfolio/blob/main/tribute-page.png?raw=true" class="project-img" id="tribute-img"></a>
+    <a id="tribute-link" target="_blank" href="https://codepen.io/hmichaut/pen/RwKQNVR"><img src="https://github.com/HMichaut/personal-portfolio/blob/main/survey-form.png?raw=true" class="project-img" id="survey-form-img"></a>
+    <a id="tribute-link" target="_blank" href="https://codepen.io/hmichaut/pen/wvgyGzE"><img src="https://github.com/HMichaut/personal-portfolio/blob/main/product-landing-page.png?raw=true" class="project-img" id="product-img"></a>
+    <a id="tribute-link" target="_blank" href="https://codepen.io/hmichaut/pen/poRaRrR"><img src="https://github.com/HMichaut/personal-portfolio/blob/main/technical-documentation.png?raw=true" class="project-img" id="tech-doc-img"></a>
+      <div>
+        
+  </section>
+  
+  <section id="profile">
+    <h2 class="profile-tile">Profile</h2>
+    <p> You can chek out my Github:</p>
+    <a id="profile-link" target="_blank" href="https://github.com/HMichaut">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" id="github"></a>
+  </section>
+</main>
